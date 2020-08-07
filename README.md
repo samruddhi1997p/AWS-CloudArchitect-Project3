@@ -9,7 +9,7 @@ In this project:
 * Design a DevSecOps pipeline
  
 ## Dependencies and Prerequisites
- 
+
 ### Access to AWS account  
 Students will need to use their personal AWS accounts.  Udacity will provide a $100 credit for any usage costs. If project instructions are followed we do not anticipate usage costs to exceed this amount.
  

@@ -4,7 +4,6 @@ Problem: All the traffic from all the ports is allowed by both private and publi
 
 Fix: The network ACL rules should be used in such a way that the available network connectivity is minimal to reduce traffic that the subnet can send and receive. This practice would reduce the ability for malacious actions by an attacker and keep the private subnet private.
 
-
 #Poor Practice 2
 
 Problem: All the S3 buckets are currently accessible from the application server that is none of the buckets are encrypted and can be accessed by the users.
