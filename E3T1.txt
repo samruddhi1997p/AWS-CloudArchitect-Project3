@@ -1,0 +1,7 @@
+# Describe GuardDuty findings that were detected related to the brute force attack
+Message:
+i-0320765b01a9bfa1a is performing SSH brute force attacks against 10.192.10.31. Brute force attacks are used to gain unauthorized access to your instance by guessing the SSH password.
+
+# Research the AWS Guard Duty documentation page and explain how GuardDuty may have detected this attack - i.e. what was its source of information.
+
+With the help of VPC Flow Logs GuardDuty, most likely GuardDuty discovered the attack which captured information about the Ip traffic sent and received from the EC2 network interface in the Virtual Private Cloud.

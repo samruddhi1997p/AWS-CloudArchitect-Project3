@@ -1,0 +1,16 @@
+#Identify tools that will allow you to do the following:
+
+-Scan infrastructure as code templates
+Open Policy Agent / Regula
+EXAMPLE:
+Missing egress rule in NoIngressSecurityGroup leads to allowing all traffic outbound.
+
+-Scan AMI’s or containers for OS vulnerabilities
+Ansible
+EXAMPLE:
+SSH root access login with password.
+
+-Scan an AWS environment for cloud configuration vulnerabilities
+AWS Config
+EXAMPLE:
+Hijacking EC2 instance and contacting servers on the internet.
